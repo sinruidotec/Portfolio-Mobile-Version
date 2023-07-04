@@ -10,10 +10,6 @@
 }
 
 @media only screen and (min-width: 100px) {
-  .grid__item-hidden {
-    display: none;
-  }
-
   header {
     width: 100%;
     background: #3c3a39;
