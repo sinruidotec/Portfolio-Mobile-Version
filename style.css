@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;600&family=Poppins&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media only screen and (min-width: 100px) {
+  .grid__item-hidden {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    background: #3c3a39;
+  }
+
+  body {
+    background: #e5e5e5;
+    width: 100vw;
+    min-width: 375px;
+  }
+
+  .toolbar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px 0  24px;
+  }
+
+  .toolbar__menu {
+    display: none;
+  }
+
+  .toolbar__logo {
+    padding-left: 24px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  #toolbar__button {
+    padding-top: 10px;
+  }
+
+  #portfolio {
+    width: 100%;
+    height: 590px;
+    background: #1c1a19;
+    padding: 120px 24px;
+    background-image: url(Assets/background-image.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 100% 112%;
+  }
+
+  h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+  }
+
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff5e1;
+    padding: 12px 0;
+  }
+
+  .portfolio__paragraph {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  .social-media {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #experience {
+    width: 100%;
+    height: auto;
+    padding: 120px 24px;
+    background: #fff;
+  }
+
+  .experience__subtitle {
+    width: 100%;
+    height: 107px;
+    text-align: left;
+    margin-bottom: 80px;
+  }
+
+  .experience__subtitle h3 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    padding: 15.5px 0;
+    margin-bottom: 24px;
+  }
+
+  .experience__hr {
+    width: 100%;
+    height: 1px;
+    background: #1c1a19;
+  }
+
+  .experience__multi-post img {
+    max-width: 327px;
+    margin-bottom: 12px;
+  }
+
+  .experience__multi-post h4 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 12px;
+    color: #091e42;
+  }
+
+  .experience__multi-post p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    color: #091e42;
+  }
+
+  .multi-post__stack {
+    display: flex;
+    margin-bottom: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    gap: 12px;
+  }
+
+  .stack__css {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .stack__html {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .stack__bootstrap {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .stack__ruby {
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .experience__button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    background: #ff6b00;
+    margin-bottom: 24px;
+    padding: 12px;
+    border: none;
+  }
+
+  .experience__button:hover {
+    padding: 11px;
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .experience__grid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 386px);
+    gap: 24px;
+  }
+
+  .grid__item {
+    max-width: 327px;
+    background-image: url(Assets/grid-fade-prof-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 72px 19px 0 0;
+  }
+
+  .grid__item h4 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 12px;
+    margin-left: 13px;
+  }
+
+  .grid__item p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    margin-left: 13px;
+  }
+
+  .grid__item-stack {
+    display: flex;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    gap: 12px;
+    margin-left: 13px;
+  }
+
+  .grid__bootstrap {
+    background: #ffffff3d;
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .grid__html {
+    background: #ffffff3d;
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .grid__ruby {
+    background: #ffffff3d;
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+
+  .grid__item-button {
+    width: 327px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    color: #fff;
+    background: #f55800;
+    padding: 12px;
+    border: none;
+  }
+
+  .grid__item-button:hover {
+    padding: 11px;
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  #about {
+    margin: auto;
+    background: #1c1a19;
+    padding: 120px 24px 87.5px 24px;
+    width: 100%;
+    background-image: url(Assets/about\ img.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 400px;
+  }
+
+  .about__info {
+    max-width: 327px;
+  }
+
+  .about__info h4 {
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.37px;
+    margin-bottom: 12px;
+    color: #ff6b00;
+  }
+
+  .about__info p {
+    color: #f4f5f7;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  #about hr {
+    margin-top: 209px;
+    margin-bottom: 136px;
+    border: 1px solid #fff;
+    min-width: 327px;
+  }
+
+  .about__languaje {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(Assets/diamond.svg);
+    background-repeat: no-repeat;
+    background-position: 20% 2.5%;
+  }
+
+  .about__languaje h4 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+  }
+
+  .about__languaje ul li {
+    color: #fff;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42.67px;
+  }
+
+  .about__frameworks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(Assets/cuadro.svg);
+    background-repeat: no-repeat;
+    background-position: 16% 3.5%;
+  }
+
+  .about__frameworks h4 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+  }
+
+  .about__frameworks ul li {
+    color: #fff;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42.67px;
+  }
+
+  .about__skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(Assets/circulo.svg);
+    background-repeat: no-repeat;
+    background-position: 34% 2.6%;
+  }
+
+  .about__skills h4 {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 24px;
+    padding-left: 30px;
+  }
+
+  .about__skills ul li {
+    color: #fff;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42.67px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Future Breakpoint */
+}
