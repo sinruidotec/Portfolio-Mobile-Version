@@ -119,6 +119,11 @@
     background: #1c1a19;
   }
 
+  .experience__multi-post {
+    display: flex;
+    flex-direction: column;
+  }
+
   .experience__multi-post img {
     max-width: 327px;
     margin-bottom: 12px;
