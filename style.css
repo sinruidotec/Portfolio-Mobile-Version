@@ -177,7 +177,7 @@
 
   .grid__item p {
     font: 400 16px/24px 'Inter', sans-serif;
-    margin-bottom: 13px;
+    margin-bottom: 1px;
     margin-left: 13px;
   }
 
@@ -248,27 +248,21 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(Assets/diamond.svg);
-    background-repeat: no-repeat;
-    background-position: 20% 2.5%;
+    background: url(Assets/diamond.svg) no-repeat 20% 2.5%;
   }
 
   .about__frameworks {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(Assets/cuadro.svg);
-    background-repeat: no-repeat;
-    background-position: 16% 3.5%;
+    background: url(Assets/cuadro.svg) no-repeat 16% 3.5%;
   }
 
   .about__skills {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url(Assets/circulo.svg);
-    background-repeat: no-repeat;
-    background-position: 34% 2.6%;
+    background: url(Assets/circulo.svg) no-repeat 34% 2.6%;
   }
 
   .about__languaje h4,
