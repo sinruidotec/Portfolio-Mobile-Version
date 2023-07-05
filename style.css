@@ -49,38 +49,26 @@
   #portfolio {
     width: 100%;
     height: 590px;
-    background: #1c1a19;
+    background: #1c1a19 url(Assets/background-image.svg) no-repeat right 112%;
     padding: 120px 24px;
-    background-image: url(Assets/background-image.svg);
-    background-repeat: no-repeat;
     background-size: 30%;
-    background-position: 100% 112%;
   }
 
   h1 {
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
+    font: 400 56px/64px 'Crete Round', serif;
     letter-spacing: 0.37px;
     color: #ff6b00;
   }
 
   h2 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
+    font: 700 24px/32px 'Roboto', sans-serif;
     color: #fff5e1;
     padding: 12px 0;
   }
 
   .portfolio__paragraph {
     color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 24px;
+    font: 400 16px/24px 'Poppins', sans-serif;
     margin-bottom: 24px;
   }
 
@@ -91,7 +79,6 @@
   }
 
   #experience {
-    width: 100%;
     height: auto;
     padding: 120px 24px;
     background: #fff;
@@ -105,16 +92,12 @@
   }
 
   .experience__subtitle h3 {
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
+    font: 400 40px/52px 'Crete Round', serif;
     padding: 15.5px 0;
     margin-bottom: 24px;
   }
 
   .experience__hr {
-    width: 100%;
     height: 1px;
     background: #1c1a19;
   }
@@ -125,63 +108,37 @@
   }
 
   .experience__multi-post img {
-    max-width: 327px;
     margin-bottom: 12px;
   }
 
   .experience__multi-post h4 {
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
+    font: 400 32px/44px 'Crete Round', serif;
     margin-bottom: 12px;
     color: #091e42;
   }
 
   .experience__multi-post p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font: 400 16px/24px 'Inter', sans-serif;
     margin-bottom: 12px;
-    color: #091e42;
   }
 
   .multi-post__stack {
     display: flex;
     margin-bottom: 12px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font: 500 15px/20px 'Inter', sans-serif;
     gap: 12px;
   }
 
-  .stack__css {
-    border: 1px solid #8993a4;
-    padding: 10px 12px;
-  }
-
-  .stack__html {
-    border: 1px solid #8993a4;
-    padding: 10px 12px;
-  }
-
-  .stack__bootstrap {
-    border: 1px solid #8993a4;
-    padding: 10px 12px;
-  }
-
+  .stack__css,
+  .stack__html,
+  .stack__bootstrap,
   .stack__ruby {
     border: 1px solid #8993a4;
     padding: 10px 12px;
   }
 
   .experience__button {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
+    font: 700 17px/24px 'Inter', sans-serif;
     color: #fff;
     background: #ff6b00;
     margin-bottom: 24px;
@@ -206,54 +163,34 @@
 
   .grid__item {
     max-width: 327px;
-    background-image: url(Assets/grid-fade-prof-img.svg);
-    background-repeat: no-repeat;
+    background: url(Assets/grid-fade-prof-img.svg) no-repeat;
     background-size: cover;
     color: #fff;
     padding: 72px 19px 0 0;
   }
 
   .grid__item h4 {
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
+    font: 400 32px/44px 'Crete Round', serif;
     margin-bottom: 12px;
     margin-left: 13px;
   }
 
   .grid__item p {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 12px;
+    font: 400 16px/24px 'Inter', sans-serif;
+    margin-bottom: 13px;
     margin-left: 13px;
   }
 
   .grid__item-stack {
     display: flex;
     margin-bottom: 16px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
+    font: 500 15px/20px 'Inter', sans-serif;
     gap: 12px;
     margin-left: 13px;
   }
 
-  .grid__bootstrap {
-    background: #ffffff3d;
-    border: 1px solid #8993a4;
-    padding: 10px 12px;
-  }
-
-  .grid__html {
-    background: #ffffff3d;
-    border: 1px solid #8993a4;
-    padding: 10px 12px;
-  }
-
+  .grid__bootstrap,
+  .grid__html,
   .grid__ruby {
     background: #ffffff3d;
     border: 1px solid #8993a4;
@@ -262,10 +199,7 @@
 
   .grid__item-button {
     width: 327px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
+    font: 700 17px/24px 'Inter', sans-serif;
     letter-spacing: 3%;
     color: #fff;
     background: #f55800;
@@ -282,12 +216,8 @@
 
   #about {
     margin: auto;
-    background: #1c1a19;
+    background: #1c1a19 url(Assets/about\ img.svg) no-repeat right 400px;
     padding: 120px 24px 87.5px 24px;
-    width: 100%;
-    background-image: url(Assets/about\ img.svg);
-    background-repeat: no-repeat;
-    background-position: 100% 400px;
   }
 
   .about__info {
@@ -295,10 +225,7 @@
   }
 
   .about__info h4 {
-    font-family: 'Crete Round', serif;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 88px;
+    font: 400 72px/88px 'Crete Round', serif;
     letter-spacing: 0.37px;
     margin-bottom: 12px;
     color: #ff6b00;
@@ -306,10 +233,7 @@
 
   .about__info p {
     color: #f4f5f7;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font: 400 16px/24px 'Inter', sans-serif;
     margin-bottom: 24px;
   }
 
@@ -329,25 +253,6 @@
     background-position: 20% 2.5%;
   }
 
-  .about__languaje h4 {
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 24px;
-    padding-left: 30px;
-  }
-
-  .about__languaje ul li {
-    color: #fff;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 42.67px;
-  }
-
   .about__frameworks {
     display: flex;
     flex-direction: column;
@@ -355,25 +260,6 @@
     background-image: url(Assets/cuadro.svg);
     background-repeat: no-repeat;
     background-position: 16% 3.5%;
-  }
-
-  .about__frameworks h4 {
-    color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    margin-bottom: 24px;
-    padding-left: 30px;
-  }
-
-  .about__frameworks ul li {
-    color: #fff;
-    padding: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 42.67px;
   }
 
   .about__skills {
@@ -385,23 +271,21 @@
     background-position: 34% 2.6%;
   }
 
+  .about__languaje h4,
+  .about__frameworks h4,
   .about__skills h4 {
     color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
+    font: 700 32px/44px 'Inter', sans-serif;
     margin-bottom: 24px;
     padding-left: 30px;
   }
 
+  .about__languaje ul li,
+  .about__frameworks ul li,
   .about__skills ul li {
     color: #fff;
     padding: 10px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 42.67px;
+    font: 400 22px/42.67px 'Inter', sans-serif;
   }
 }
 
