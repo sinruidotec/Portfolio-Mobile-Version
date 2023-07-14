@@ -189,10 +189,6 @@
     border: none;
   }
 
-  .experience__button:hover {
-
-  }
-
   .experience__grid {
     display: grid;
     margin: auto;
@@ -269,8 +265,6 @@
     padding: 12px;
     border: none;
   }
-
-  .grid__item-button:hover {
 
   }
 
@@ -474,10 +468,6 @@
   margin-bottom: 78px;
   padding: 12px;
   margin-left: 0%;
-}
-
-.contact__button:hover {
-
 }
 
 #contact hr {
