@@ -35,7 +35,6 @@
   }
 
   .toolbar__logo {
-    padding-left: 24px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -87,7 +86,7 @@
   .social-media {
     width: 200px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
   #experience {
@@ -498,6 +497,10 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.medium {
+  margin-top: 4px;
 }
 
 @media only screen and (min-width: 768px) {
