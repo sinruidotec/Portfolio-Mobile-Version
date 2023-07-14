@@ -190,10 +190,7 @@
   }
 
   .experience__button:hover {
-    padding: 11px;
-    color: #f55800;
-    background: #fff5e1;
-    border: 1px solid #f55800;
+
   }
 
   .experience__grid {
@@ -274,10 +271,7 @@
   }
 
   .grid__item-button:hover {
-    padding: 11px;
-    color: #f55800;
-    background: #fff5e1;
-    border: 1px solid #f55800;
+
   }
 
   #about {
@@ -483,10 +477,7 @@
 }
 
 .contact__button:hover {
-  padding: 11px;
-  color: #f55800;
-  background: #fff5e1;
-  border: 1px solid #f55800;
+
 }
 
 #contact hr {
