@@ -189,7 +189,7 @@
     border: none;
   }
 
-.experience__button:hover {
+  .experience__button:hover {
     padding: 11px;
     color: #f55800;
     background: #fff5e1;
