@@ -478,10 +478,6 @@
   gap: 20px;
 }
 
-.medium {
-  margin-top: 4px;
-}
-
 @media only screen and (min-width: 768px) {
   /* Future Breakpoint */
 }
